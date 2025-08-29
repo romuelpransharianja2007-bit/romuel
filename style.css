@@ -1,0 +1,112 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  padding: 1rem 2rem;
+}
+.navbar .logo {
+  color: #fff;
+  font-weight: bold;
+}
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.navbar .nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 3rem;
+  background: #f0f0f0;
+}
+
+/* Profile */
+.profile {
+  padding: 2rem;
+  background: #fff;
+}
+.profile img {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+/* Headquarter */
+.headquarter {
+  padding: 2rem;
+  background: #f9f9f9;
+  text-align: center;
+}
+.circles {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contact Form */
+.contact {
+  padding: 2rem;
+  background: #fff;
+}
+.contact form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.contact label {
+  margin-top: 1rem;
+}
+.contact input, .contact textarea {
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contact button {
+  margin-top: 1rem;
+  padding: 0.7rem;
+  border: none;
+  background: #222;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .circles {
+    flex-direction: column;
+  }
+}
